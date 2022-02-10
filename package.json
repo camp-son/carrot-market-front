@@ -1,5 +1,5 @@
 {
-  "name": "carret-market-front",
+  "name": "carrot-market-front",
   "private": true,
   "scripts": {
     "dev": "next dev",
