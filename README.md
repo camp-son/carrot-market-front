@@ -27,10 +27,11 @@ yarn add next@latest react@rc react-dom@rc
 
 ## Setup TailwindCSS
 
-### Install TailwindCSS
-[TailwindCSS Documents](https://tailwindcss.com/docs/installation)에 나온 순서를 참고하여 **TailwindCSS 초기 설정**을 해줍니다.
+- [VSCode - Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Prettier - Automatic class sorting](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
-> CSS에 대한 크로스브라우징을 위해 PostCSS와 Autoprefixer도 설치해줍니다.
+### Install TailwindCSS
+[TailwindCSS Documents - Using PostCSS](https://tailwindcss.com/docs/installation/using-postcss)에 나온 순서를 참고하여 **TailwindCSS 초기 설정**을 해줍니다.
 
 ```
 yarn add --dev tailwindcss postcss autoprefixer
