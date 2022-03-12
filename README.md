@@ -7,6 +7,7 @@
 ## Setup NextJS
 
 ### Create NextJS project
+
 [NextJS 공식 홈페이지](https://nextjs.org/docs/getting-started)에서 `CNA(Create Next App)` 명령어를 통해 **NextJS 기반 프로젝트 초기 설정**을 해줍니다.
 
 ```
@@ -31,6 +32,7 @@ yarn add next@latest react@rc react-dom@rc
 - [Prettier - Automatic class sorting](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
 ### Install TailwindCSS
+
 [TailwindCSS Documents - Using PostCSS](https://tailwindcss.com/docs/installation/using-postcss)에 나온 순서를 참고하여 **TailwindCSS 초기 설정**을 해줍니다.
 
 ```
@@ -38,6 +40,7 @@ yarn add --dev tailwindcss postcss autoprefixer
 ```
 
 ### Configuration TailwindCSS
+
 [TailwindCSS Content Configuration](https://tailwindcss.com/docs/content-configuration)
 
 TailwindCSS가 사용되는 파일을 인지할 수 있도록 `tailwind.config.js` 파일에서 설정해줍니다.
@@ -54,3 +57,6 @@ module.exports = {
 }
 ```
 
+### Tailwind Practice
+
+[Elements](https://dribbble.com/shots/15996385-Ecommerce-elements/attachments/7835152?mode=media)
