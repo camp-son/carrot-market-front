@@ -43,8 +43,42 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-3xl bg-white p-6 shadow-lg"></div>
-      <div className="rounded-3xl bg-white p-6 shadow-lg"></div>
+      <div className="rounded-3xl bg-white p-6 shadow-lg">
+        <div className="mb-4 flex items-center justify-between">
+          <button>⬅</button>
+          <div className="space-x-3">
+            <span>🌠4.9</span>
+            <span className="rounded-xl p-3 shadow-xl">💖</span>
+          </div>
+        </div>
+        <div className="mb-3 h-72 bg-gray-400" />
+        <div className="flex flex-col">
+          <span className="text-lg font-semibold">Swoon Lounge</span>
+          <span className="text-xs text-gray-400">Chair</span>
+        </div>
+        <div className="flex items-center justify-between">
+          <div className="flex gap-4">
+            <input type="radio" name="color" />
+            <input type="radio" name="color" />
+            <input type="radio" name="color" />
+          </div>
+          <div className="space-x-4">
+            <button className="aspect-square w-10 rounded-lg bg-blue-100 text-xl">
+              -
+            </button>
+            <span className="text-2xl font-semibold">1</span>
+            <button className="aspect-square w-10 rounded-lg bg-blue-100 text-xl">
+              +
+            </button>
+          </div>
+        </div>
+        <div className="mt-5 flex items-center justify-between">
+          <span className="text-3xl">$450</span>
+          <button className="rounded-xl bg-blue-500 py-2 px-9 font-normal text-white">
+            Add to cart
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
